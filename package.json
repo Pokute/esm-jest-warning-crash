@@ -1,0 +1,14 @@
+{
+  "name": "esm-jest-warning-crash",
+  "description": "Demonstrates esm+jest bug with console.warn()",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.0.62",
+    "jest": "^23.3.0"
+  },
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js",
+    "test-esm": "node -r esm ./node_modules/jest/bin/jest.js"
+  }
+}
